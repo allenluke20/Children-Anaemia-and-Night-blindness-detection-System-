@@ -11,7 +11,7 @@ This project builds a multi-class classification pipeline to diagnose five healt
 - **Rickets / Osteomalacia**
 - **Scurvy**
 
-Using a dataset of 4,000 patient records with 29 features, the pipeline preprocesses mixed data types and trains multiple supervised learning models. A Decision Tree Classifier is selected as the final model after hyperparameter tuning, achieving **99%+ accuracy** with only **3 misclassification** on the held-out test set.
+Using a dataset of 4,000 patient records with 29 features, the pipeline preprocesses mixed data types and trains multiple supervised learning models. A Decision Tree Classifier is selected as the final model after hyperparameter tuning, achieving **99%+ accuracy** with only **3 misclassifications** on the held-out test set.
 
 ## Repository Structure
 
