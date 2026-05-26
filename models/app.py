@@ -11,8 +11,8 @@ st.write("Modify the patient health metrics across the categories below to evalu
 # Optimally cache and load the trained pipeline artifacts
 @st.cache_resource
 def load_pipeline():
-    model = joblib.load("model.pkl")
-    classes = joblib.load("classes.pkl")
+    model = joblib.load("saved model\\model.pkl")
+    classes = joblib.load("saved model\\classes.pkl")
     return model, classes
 
 try:
