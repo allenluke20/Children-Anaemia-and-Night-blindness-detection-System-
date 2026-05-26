@@ -11,17 +11,17 @@ This project builds a multi-class classification pipeline to diagnose five healt
 - **Rickets / Osteomalacia**
 - **Scurvy**
 
-Using a dataset of 4,000 patient records with 29 features, the pipeline preprocesses mixed data types and trains multiple supervised learning models. A Decision Tree Classifier is selected as the final model after hyperparameter tuning, achieving **99%+ accuracy** with only **3 misclassification** on the held-out test set.
+Using a dataset of 4,000 patient records with 29 features, the pipeline preprocesses mixed data types and trains multiple supervised learning models. A Decision Tree Classifier is selected as the final model after hyperparameter tuning, achieving **99.9%+ accuracy** with only **1 misclassification** on the held-out test set.
 
 ## Repository Structure
 
 ```
 ├── data/
-│   └── vitamin_deficiency_disease_dataset_cleaned.csv          # Raw dataset (4,000 records)
+│   └── patient_nutrition_data.csv          # Raw dataset (4,000 records)
 ├── notebooks/
-│   └── Vitamin deficiency classifier.ipynb        # Full analysis & modeling pipeline
+│   └── disease_classification.ipynb        # Full analysis & modeling pipeline
 ├── models/
-│   └── model.pkl      # Serialized final model
+│   └── best_decision_tree.pkl              # Serialized final model
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
