@@ -357,8 +357,8 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 For questions, collaboration, or deployment inquiries:
 
-- **Project Lead:** [Your Name] — your.email@university.edu
-- **GitHub Issues:** [github.com/yourusername/vitamin-deficiency-classifier/issues](https://github.com/yourusername/vitamin-deficiency-classifier/issues)
+- **Project Lead:** Allen Lukelo Mahobe — allenmahobe@gmail.com
+- **GitHub Issues:** [github.com/allenluke20/Children-Anaemia-and-Night-blindness-detection-System-/issues](github.com/allenluke20/Children-Anaemia-and-Night-blindness-detection-System-/issues)
 
 ---
 
